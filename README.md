@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SHANRAK CARGO - быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану. Отслеживание груза, консолидация, таможенное оформление.">
+    <meta name="description" content="SHANRAK KARGO - быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану. Отслеживание груза, консолидация, таможенное оформление.">
     <meta name="keywords" content="доставка из Китая, карго, Астана, Казахстан, товары из Китая, грузоперевозки">
     <title>SHANRAK KARGO - Доставка товаров из Китая в Астану и Казахстан</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -48,7 +48,7 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="#home" class="logo">SHANRAK CARGO</a>
+                <a href="#home" class="logo">SHANRAK KARGO</a>
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="#home" class="nav-link" data-i18n="nav.home">Главная</a></li>
                     <li><a href="#about" class="nav-link" data-i18n="nav.about">О нас</a></li>
