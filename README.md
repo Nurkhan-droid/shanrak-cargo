@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SHANRAK CARGO - быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану. Отслеживание груза, консолидация, таможенное оформление.">
     <meta name="keywords" content="доставка из Китая, карго, Астана, Казахстан, товары из Китая, грузоперевозки">
-    <title>SHANRAK CARGO - Доставка товаров из Китая в Астану и Казахстан</title>
+    <title>SHANRAK KARGO - Доставка товаров из Китая в Астану и Казахстан</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,13 +73,13 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-background">
-            <img src="image.jpg" alt="SHANRAK CARGO" class="hero-image">
+            <img src="image.jpg" alt="SHANRAK KARGO" class="hero-image">
             <div class="hero-overlay"></div>
         </div>
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">SHANRAK CARGO</h1>
+                    <h1 class="hero-title">SHANRAK KARGO</h1>
                     <p class="hero-subtitle" data-i18n="hero.subtitle">Товары из Китая</p>
                     <p class="hero-description" data-i18n="hero.description">
                         Быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану
@@ -104,15 +104,15 @@
     <section id="about" class="section about-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-i18n="about.title">О компании SHANRAK CARGO</h2>
+                <h2 class="section-title" data-i18n="about.title">О компании SHANRAK KARGO</h2>
             </div>
             <div class="about-content">
                 <div class="about-text">
                     <p data-i18n="about.text1">
-                        SHANRAK CARGO – это надежный партнер в доставке товаров из Китая в Казахстан. 
+                        SHANRAK KARGO – это надежный партнер в доставке товаров из Китая в Казахстан. 
                         Мы специализируемся на быстрой и безопасной транспортировке грузов любого объема 
                         и веса. Наша компания находится в Астане, район Жагалау, что позволяет нам 
-                        оперативно обрабатывать и доставлять ваши заказы.
+                        оперативно обрабатывать и отдовать в целости и сохранности.
                     </p>
                     <p data-i18n="about.text2">
                         Мы понимаем, как важна скорость доставки для вашего бизнеса. Поэтому мы 
@@ -178,8 +178,8 @@
                     </div>
                     <h3 class="service-title" data-i18n="services.service3.title">Оформление документов и таможни</h3>
                     <p class="service-description" data-i18n="services.service3.desc">
-                        Мы берем на себя все вопросы, связанные с таможенным оформлением и 
-                        документацией. Вы получаете груз уже с полностью оформленными документами.
+                        Мы берем на себя все вопросы, связанные с таможенным.\
+                        Вы получаете груз уже с полностью соглосившись на наши условия.
                     </p>
                     <ul class="service-features">
                         <li><i class="fas fa-check-circle"></i> <span data-i18n="services.service3.feat1">Таможенное оформление</span></li>
@@ -323,7 +323,7 @@
                     <div class="prohibited-item">
                         <i class="fas fa-ban"></i>
                         <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item1.title">Медицинские изделия</strong>
+                            <strong data-i18n="prohibited.item1.title">(Медицинские изделия и др.)</strong>
                             <span data-i18n="prohibited.item1.desc">(лекарства, витамины, фитотерапия и др.)</span>
                         </div>
                     </div>
@@ -331,28 +331,28 @@
                         <i class="fas fa-ban"></i>
                         <div class="prohibited-text">
                             <strong data-i18n="prohibited.item2.title">Предметы военного назначения</strong>
-                            <span data-i18n="prohibited.item2.desc">(дрон, бинокль, ролик)</span>
+                            <span data-i18n="prohibited.item2.desc">(дрон, бинокль, ролик др.)</span>
                         </div>
                     </div>
                     <div class="prohibited-item">
                         <i class="fas fa-ban"></i>
                         <div class="prohibited-text">
                             <strong data-i18n="prohibited.item3.title">Устройства для майнинга</strong>
-                            <span data-i18n="prohibited.item3.desc">(Биткоин, устройства для заработка электронных денег, видеокарта)</span>
+                            <span data-i18n="prohibited.item3.desc">(Биткоин, устройства для заработка электронных денег, видеокарта и др.)</span>
                         </div>
                     </div>
                     <div class="prohibited-item">
                         <i class="fas fa-ban"></i>
                         <div class="prohibited-text">
                             <strong data-i18n="prohibited.item4.title">Контрабандные товары</strong>
-                            <span data-i18n="prohibited.item4.desc">(золото, серебро, норка/мех)</span>
+                            <span data-i18n="prohibited.item4.desc">(золото, серебро, норка/мех др.)</span>
                         </div>
                     </div>
                     <div class="prohibited-item">
                         <i class="fas fa-ban"></i>
                         <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item5.title">Электронная сигарета, кальян</strong>
-                            <span data-i18n="prohibited.item5.desc">и т.д.</span>
+                            <strong data-i18n="prohibited.item5.title">(Электронная сигарета , кальян др.)</strong>
+                            <span data-i18n="prohibited.item5.desc"></span>
                         </div>
                     </div>
                     <div class="prohibited-item">
