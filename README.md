@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SHANRAK CARGO - быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану. Отслеживание груза, консолидация, таможенное оформление.">
-    <meta name="keywords" content="доставка из Китая, карго, Астана, Казахстан, товары из Китая, грузоперевозки">
-    <title>SHANRAK CARGO - Доставка товаров из Китая в Астану и Казахстан</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title data-i18n="meta.title">SHANRAK KARGO - Доставка товаров из Китая в Казахстан</title>
+    <meta name="description" data-i18n="meta.description" content="SHANRAK KARGO - быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану. Прозрачные тарифы, честный вес, профессиональная упаковка.">
+    <meta name="keywords" content="shanrak kargo, шанрак карго, доставка из китая, доставка китай казахстан, cargo китай, доставка товаров из китая, китай казахстан доставка, shanrak kargo, доставка астана, карго китай казахстан">
+    <meta name="author" content="SHANRAK KARGO">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="https://shanrakkargo.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shanrakkargo.com/">
+    <meta property="og:title" content="SHANRAK KARGO - Доставка товаров из Китая в Казахстан">
+    <meta property="og:description" content="Быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану. Прозрачные тарифы, честный вес, профессиональная упаковка.">
+    <meta property="og:site_name" content="SHANRAK KARGO">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:locale:alternate" content="kk_KZ">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://shanrakkargo.com/">
+    <meta property="twitter:title" content="SHANRAK KARGO - Доставка товаров из Китая в Казахстан">
+    <meta property="twitter:description" content="Быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану.">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- New Year Decorative Elements -->
@@ -40,15 +59,15 @@
 
     <!-- Language Switcher - Top Left -->
     <div class="language-switcher">
-        <button class="lang-btn active" data-lang="ru">🇷🇺 RU</button>
-        <button class="lang-btn" data-lang="kk">🇰🇿 KZ</button>
+        <button class="lang-btn active" data-lang="ru"><span class="flag">🇷🇺</span> RU</button>
+        <button class="lang-btn" data-lang="kk"><span class="flag">🇰🇿</span> KZ</button>
     </div>
 
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="#home" class="logo">SHANRAK CARGO</a>
+                <a href="#home" class="logo">SHANRAK KARGO</a>
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="#home" class="nav-link" data-i18n="nav.home">Главная</a></li>
                     <li><a href="#about" class="nav-link" data-i18n="nav.about">О нас</a></li>
@@ -73,13 +92,13 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-background">
-            <img src="image.jpg" alt="SHANRAK CARGO" class="hero-image">
+            <img src="image.jpg" alt="SHANRAK KARGO" class="hero-image">
             <div class="hero-overlay"></div>
         </div>
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">SHANRAK CARGO</h1>
+                    <h1 class="hero-title" data-i18n="hero.title">SHANRAK KARGO</h1>
                     <p class="hero-subtitle" data-i18n="hero.subtitle">Товары из Китая</p>
                     <p class="hero-description" data-i18n="hero.description">
                         Быстрая и надежная доставка товаров из Китая в Астану и по всему Казахстану
@@ -104,12 +123,12 @@
     <section id="about" class="section about-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-i18n="about.title">О компании SHANRAK CARGO</h2>
+                <h2 class="section-title" data-i18n="about.title">О компании SHANRAK KARGO</h2>
             </div>
             <div class="about-content">
                 <div class="about-text">
                     <p data-i18n="about.text1">
-                        SHANRAK CARGO – это надежный партнер в доставке товаров из Китая в Казахстан. 
+                        SHANRAK KARGO – это надежный партнер в доставке товаров из Китая в Казахстан. 
                         Мы специализируемся на быстрой и безопасной транспортировке грузов любого объема 
                         и веса. Наша компания находится в Астане, район Жагалау, что позволяет нам 
                         оперативно обрабатывать и доставлять ваши заказы.
@@ -264,46 +283,58 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title" data-i18n="marketplaces.title">Китайские маркетплейсы</h2>
-                <p class="section-subtitle" data-i18n="marketplaces.subtitle">Заказывайте товары на популярных китайских площадках</p>
+                <p class="section-subtitle" data-i18n="marketplaces.subtitle">Покупайте на популярных китайских платформах</p>
             </div>
             <div class="marketplaces-grid">
                 <div class="marketplace-card">
-                    <div class="marketplace-icon">
-                        <i class="fas fa-shopping-bag"></i>
+                    <div class="marketplace-logo">
+                        <img src="images/poizon.png" alt="Poizon" class="marketplace-image" onerror="this.onerror=null; this.src='images/poizon.jpg'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';};">
+                        <div class="marketplace-icon" style="display:none;">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
                     </div>
-                    <h3 class="marketplace-name">Pinduoduo</h3>
-                    <p class="marketplace-desc" data-i18n="marketplaces.pinduoduo.desc">Низкие цены и выгодные акции</p>
-                    <a href="https://mobile.yangkeduo.com/goods1.html?ps=cIuFekbpG8" target="_blank" class="btn btn-secondary">
+                    <h3 class="marketplace-title" data-i18n="marketplaces.poizon.title">Poizon</h3>
+                    <p class="marketplace-desc" data-i18n="marketplaces.poizon.desc">Платформа для покупки оригинальных товаров</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.shizhuang.poizon.hk" target="_blank" class="btn btn-primary">
                         <i class="fas fa-external-link-alt"></i> <span data-i18n="marketplaces.visit">Перейти</span>
                     </a>
                 </div>
                 <div class="marketplace-card">
-                    <div class="marketplace-icon">
-                        <i class="fas fa-sneakers"></i>
+                    <div class="marketplace-logo">
+                        <img src="images/pinduoduo.png" alt="Pinduoduo" class="marketplace-image" onerror="this.onerror=null; this.src='images/pinduoduo.jpg'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';};">
+                        <div class="marketplace-icon" style="display:none;">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
                     </div>
-                    <h3 class="marketplace-name">POIZON</h3>
-                    <p class="marketplace-desc" data-i18n="marketplaces.poizon.desc">Аутентичные кроссовки и одежда</p>
-                    <a href="https://play.google.com/store/apps/details?id=com.shizhuang.poizon.hk" target="_blank" class="btn btn-secondary">
+                    <h3 class="marketplace-title" data-i18n="marketplaces.pinduoduo.title">Pinduoduo</h3>
+                    <p class="marketplace-desc" data-i18n="marketplaces.pinduoduo.desc">Один из крупнейших маркетплейсов Китая</p>
+                    <a href="https://mobile.yangkeduo.com/goods1.html?ps=cIuFekbpG8" target="_blank" class="btn btn-primary">
                         <i class="fas fa-external-link-alt"></i> <span data-i18n="marketplaces.visit">Перейти</span>
                     </a>
                 </div>
                 <div class="marketplace-card">
-                    <div class="marketplace-icon">
-                        <i class="fas fa-store"></i>
+                    <div class="marketplace-logo">
+                        <img src="images/taobao.png" alt="Taobao" class="marketplace-image" onerror="this.onerror=null; this.src='images/taobao.jpg'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';};">
+                        <div class="marketplace-icon" style="display:none;">
+                            <i class="fas fa-store"></i>
+                        </div>
                     </div>
-                    <h3 class="marketplace-name">Taobao</h3>
-                    <p class="marketplace-desc" data-i18n="marketplaces.taobao.desc">Огромный выбор товаров</p>
-                    <a href="https://play.google.com/store/apps/details?id=com.taobao.taobao" target="_blank" class="btn btn-secondary">
+                    <h3 class="marketplace-title" data-i18n="marketplaces.taobao.title">Taobao</h3>
+                    <p class="marketplace-desc" data-i18n="marketplaces.taobao.desc">Крупнейший интернет-магазин Китая</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.taobao.taobao" target="_blank" class="btn btn-primary">
                         <i class="fas fa-external-link-alt"></i> <span data-i18n="marketplaces.visit">Перейти</span>
                     </a>
                 </div>
                 <div class="marketplace-card">
-                    <div class="marketplace-icon">
-                        <i class="fas fa-industry"></i>
+                    <div class="marketplace-logo">
+                        <img src="images/alibaba1688.png" alt="1688" class="marketplace-image" onerror="this.onerror=null; this.src='images/alibaba1688.jpg'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='flex';};">
+                        <div class="marketplace-icon" style="display:none;">
+                            <i class="fas fa-industry"></i>
+                        </div>
                     </div>
-                    <h3 class="marketplace-name">1688 (Alibaba)</h3>
-                    <p class="marketplace-desc" data-i18n="marketplaces.alibaba.desc">Оптовые закупки и B2B</p>
-                    <a href="https://play.google.com/store/apps/details?id=com.alibaba.wireless" target="_blank" class="btn btn-secondary">
+                    <h3 class="marketplace-title" data-i18n="marketplaces.alibaba.title">1688</h3>
+                    <p class="marketplace-desc" data-i18n="marketplaces.alibaba.desc">Оптовая платформа Alibaba для бизнеса</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.alibaba.wireless" target="_blank" class="btn btn-primary">
                         <i class="fas fa-external-link-alt"></i> <span data-i18n="marketplaces.visit">Перейти</span>
                     </a>
                 </div>
@@ -314,61 +345,82 @@
     <!-- Prohibited Items Section -->
     <section id="prohibited" class="section prohibited-section">
         <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="prohibited.title">Запрещенные товары</h2>
+                <p class="section-subtitle" data-i18n="prohibited.subtitle">Список товаров, которые нельзя отправлять</p>
+            </div>
             <div class="prohibited-content">
-                <div class="prohibited-header">
-                    <h2 class="section-title" data-i18n="prohibited.title">Товары, которые нельзя заказывать</h2>
-                    <p class="prohibited-subtitle" data-i18n="prohibited.subtitle">Товары, запрещенные к заказу из Китая:</p>
-                </div>
-                <div class="prohibited-list">
-                    <div class="prohibited-item">
-                        <i class="fas fa-ban"></i>
-                        <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item1.title">Медицинские изделия</strong>
-                            <span data-i18n="prohibited.item1.desc">(лекарства, витамины, фитотерапия и др.)</span>
-                        </div>
-                    </div>
-                    <div class="prohibited-item">
-                        <i class="fas fa-ban"></i>
-                        <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item2.title">Предметы военного назначения</strong>
-                            <span data-i18n="prohibited.item2.desc">(дрон, бинокль, ролик)</span>
-                        </div>
-                    </div>
-                    <div class="prohibited-item">
-                        <i class="fas fa-ban"></i>
-                        <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item3.title">Устройства для майнинга</strong>
-                            <span data-i18n="prohibited.item3.desc">(Биткоин, устройства для заработка электронных денег, видеокарта)</span>
-                        </div>
-                    </div>
-                    <div class="prohibited-item">
-                        <i class="fas fa-ban"></i>
-                        <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item4.title">Контрабандные товары</strong>
-                            <span data-i18n="prohibited.item4.desc">(золото, серебро, норка/мех)</span>
-                        </div>
-                    </div>
-                    <div class="prohibited-item">
-                        <i class="fas fa-ban"></i>
-                        <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item5.title">Электронная сигарета, кальян</strong>
-                            <span data-i18n="prohibited.item5.desc">и т.д.</span>
-                        </div>
-                    </div>
-                    <div class="prohibited-item">
-                        <i class="fas fa-ban"></i>
-                        <div class="prohibited-text">
-                            <strong data-i18n="prohibited.item6.title">Жидкости</strong>
-                        </div>
-                    </div>
-                </div>
                 <div class="prohibited-warning">
                     <i class="fas fa-exclamation-triangle"></i>
-                    <p data-i18n="prohibited.warning">
-                        Если эти товары заказаны, владелец этих товаров будет нести все расходы и ответственность, 
-                        если товары задерживаются из-за пограничного контроля или доставки. Разместите заказ, 
-                        если вы согласны с этими условиями, если вы не согласны, не размещайте заказ.
-                    </p>
+                    <p data-i18n="prohibited.warning">Внимание! Отправка запрещенных товаров может привести к конфискации груза и юридическим последствиям.</p>
+                </div>
+                <div class="prohibited-china">
+                    <h3 style="margin-bottom: 1rem; color: #FF6B35; font-size: 1.3rem;">Запрещенные товары для заказа из Китая:</h3>
+                    <ol style="margin-left: 1.5rem; line-height: 1.8;">
+                        <li>Медицинские изделия (лекарства, витамины, фитотерапия и др.)</li>
+                        <li>Предметы военного назначения (дрон, бинокль, ролик и др.)</li>
+                        <li>Устройства для майнинга (Биткоин, устройства для заработка электронных денег, видеокарта и др.)</li>
+                        <li>Контрабандные товары (золото, серебро, норка/мех и др.)</li>
+                        <li>Электронная сигарета, кальян и др.</li>
+                        <li>Жидкости</li>
+                    </ol>
+                    <div style="margin-top: 1.5rem; padding: 1rem; background-color: rgba(255, 107, 53, 0.1); border-left: 4px solid #FF6B35; border-radius: 4px;">
+                        <p style="margin: 0; font-weight: 600; color: #333;">
+                            Если эти товары заказаны, владелец товаров берет на себя все расходы и ответственность. Мы также предупреждаем, что это есть риск задержки товаров из-за пограничного контроля или доставки.
+                        </p>
+                    </div>
+                </div>
+                <div class="prohibited-list">
+                    <div class="prohibited-category">
+                        <h3 data-i18n="prohibited.category1.title">Оружие и боеприпасы</h3>
+                        <ul>
+                            <li data-i18n="prohibited.category1.item1">Огнестрельное оружие</li>
+                            <li data-i18n="prohibited.category1.item2">Холодное оружие</li>
+                            <li data-i18n="prohibited.category1.item3">Боеприпасы</li>
+                            <li data-i18n="prohibited.category1.item4">Взрывчатые вещества</li>
+                        </ul>
+                    </div>
+                    <div class="prohibited-category">
+                        <h3 data-i18n="prohibited.category2.title">Наркотики и психотропные вещества</h3>
+                        <ul>
+                            <li data-i18n="prohibited.category2.item1">Наркотические средства</li>
+                            <li data-i18n="prohibited.category2.item2">Психотропные вещества</li>
+                            <li data-i18n="prohibited.category2.item3">Прекурсоры наркотиков</li>
+                        </ul>
+                    </div>
+                    <div class="prohibited-category">
+                        <h3 data-i18n="prohibited.category3.title">Деньги и ценности</h3>
+                        <ul>
+                            <li data-i18n="prohibited.category3.item1">Наличные деньги</li>
+                            <li data-i18n="prohibited.category3.item2">Ценные бумаги</li>
+                            <li data-i18n="prohibited.category3.item3">Драгоценные металлы и камни</li>
+                        </ul>
+                    </div>
+                    <div class="prohibited-category">
+                        <h3 data-i18n="prohibited.category4.title">Животные и растения</h3>
+                        <ul>
+                            <li data-i18n="prohibited.category4.item1">Живые животные</li>
+                            <li data-i18n="prohibited.category4.item2">Растения без фитосанитарных сертификатов</li>
+                            <li data-i18n="prohibited.category4.item3">Продукты животного происхождения</li>
+                        </ul>
+                    </div>
+                    <div class="prohibited-category">
+                        <h3 data-i18n="prohibited.category5.title">Опасные вещества</h3>
+                        <ul>
+                            <li data-i18n="prohibited.category5.item1">Радиоактивные материалы</li>
+                            <li data-i18n="prohibited.category5.item2">Токсичные вещества</li>
+                            <li data-i18n="prohibited.category5.item3">Легковоспламеняющиеся жидкости</li>
+                            <li data-i18n="prohibited.category5.item4">Коррозийные вещества</li>
+                        </ul>
+                    </div>
+                    <div class="prohibited-category">
+                        <h3 data-i18n="prohibited.category6.title">Другое</h3>
+                        <ul>
+                            <li data-i18n="prohibited.category6.item1">Порнографические материалы</li>
+                            <li data-i18n="prohibited.category6.item2">Поддельные товары</li>
+                            <li data-i18n="prohibited.category6.item3">Товары, нарушающие авторские права</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -377,19 +429,27 @@
     <!-- Tracking Section -->
     <section id="tracking" class="section tracking-section">
         <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="tracking.title">Отследить груз</h2>
+                <p class="section-subtitle" data-i18n="tracking.subtitle">Введите номер отслеживания для проверки статуса доставки</p>
+            </div>
             <div class="tracking-content">
-                <div class="tracking-text">
-                    <h2 class="section-title" data-i18n="tracking.title">Отследить груз</h2>
-                    <p class="tracking-description" data-i18n="tracking.description">
-                        Используйте наш сервис отслеживания, чтобы всегда знать, где находится ваш груз. 
-                        Введите номер накладной и получите актуальную информацию о статусе доставки.
-                    </p>
-                    <a href="https://cargo-1.kz/" target="_blank" class="btn btn-primary btn-large">
-                        <i class="fas fa-search"></i> <span data-i18n="tracking.button">Перейти к отслеживанию</span>
-                    </a>
+                <div class="tracking-form">
+                    <input type="text" id="trackingNumber" class="tracking-input" placeholder="Введите номер отслеживания" data-i18n-placeholder="tracking.placeholder">
+                    <button class="btn btn-primary" onclick="trackPackage()" type="button">
+                        <i class="fas fa-search"></i> <span data-i18n="tracking.search">Отследить</span>
+                    </button>
                 </div>
-                <div class="tracking-image">
-                    <i class="fas fa-box-open"></i>
+                <div class="tracking-info">
+                    <p data-i18n="tracking.info">Для отслеживания груза свяжитесь с нами в WhatsApp или Instagram</p>
+                    <div class="tracking-contacts">
+                        <a href="https://wa.me/7761111515" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> <span data-i18n="tracking.whatsapp">WhatsApp</span>
+                        </a>
+                        <a href="https://www.instagram.com/shanrak.kargo?igsh=MTNkZGcybzd4em9mYg==" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-instagram"></i> <span data-i18n="tracking.instagram">Instagram</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -400,13 +460,19 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title" data-i18n="reviews.title">Отзывы клиентов</h2>
-                <p class="section-subtitle" data-i18n="reviews.subtitle">Пишут в WhatsApp и социальных сетях</p>
+                <p class="section-subtitle" data-i18n="reviews.subtitle">Что говорят о нас наши клиенты</p>
             </div>
             <div class="reviews-grid">
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-name">Айгуль</div>
-                        <div class="review-stars">
+                        <div class="review-author">
+                            <div class="review-avatar">А</div>
+                            <div>
+                                <h4 data-i18n="reviews.review1.name">Айгуль</h4>
+                                <p class="review-date" data-i18n="reviews.review1.date">15 декабря 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -414,16 +480,18 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="review-text">
-                        Күшті карго, заттарымыз шамамен 7 күнде келді, бәрі бүтін, қызметі ұнады. 
-                        WhatsApp арқылы байланысқанда тез жауап берді, бәрін түсіндірді. Келесі 
-                        рет қайтадан осы компанияға жүгінемін.
-                    </p>
+                    <p class="review-text" data-i18n="reviews.review1.text">Отличный сервис! Доставили быстро, все аккуратно упаковано. Рекомендую!</p>
                 </div>
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-name">Дмитрий</div>
-                        <div class="review-stars">
+                        <div class="review-author">
+                            <div class="review-avatar">М</div>
+                            <div>
+                                <h4 data-i18n="reviews.review2.name">Марат</h4>
+                                <p class="review-date" data-i18n="reviews.review2.date">10 декабря 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -431,16 +499,18 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="review-text">
-                        Заказывал товары для магазина. Доставили за 9 дней, все аккуратно упаковано, 
-                        ничего не повредилось. Вес соответствует заявленному, никаких скрытых доплат. 
-                        Операторы в WhatsApp всегда на связи, отвечают быстро. Рекомендую!
-                    </p>
+                    <p class="review-text" data-i18n="reviews.review2.text">Работаю с ними уже полгода. Всегда вовремя, честный вес, прозрачные цены.</p>
                 </div>
                 <div class="review-card">
                     <div class="review-header">
-                        <div class="review-name">Асель</div>
-                        <div class="review-stars">
+                        <div class="review-author">
+                            <div class="review-avatar">С</div>
+                            <div>
+                                <h4 data-i18n="reviews.review3.name">Сауле</h4>
+                                <p class="review-date" data-i18n="reviews.review3.date">5 декабря 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-rating">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -448,62 +518,7 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </div>
-                    <p class="review-text">
-                        Первый раз заказывала через карго, немного переживала. Но все прошло отлично! 
-                        Заказ пришел за 8 дней, все целое, упаковка качественная. В WhatsApp помогли 
-                        с оформлением, объяснили все нюансы. Очень довольна сервисом.
-                    </p>
-                </div>
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="review-name">Ерлан</div>
-                        <div class="review-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <p class="review-text">
-                        Заказывал электронику из Китая. Доставили быстро, за 6 дней! Товар в идеальном 
-                        состоянии, все работает. Отслеживание груза работает отлично, всегда знал где 
-                        находится посылка. Честный вес, прозрачные тарифы. Спасибо SHANRAK CARGO!
-                    </p>
-                </div>
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="review-name">Мария</div>
-                        <div class="review-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <p class="review-text">
-                        Регулярно заказываю товары через SHANRAK CARGO. Всегда все вовремя, качественно 
-                        упаковано. Операторы в WhatsApp очень вежливые, помогают с любыми вопросами. 
-                        Цены адекватные, никаких скрытых платежей. Лучший карго в Астане!
-                    </p>
-                </div>
-                <div class="review-card">
-                    <div class="review-header">
-                        <div class="review-name">Нурлан</div>
-                        <div class="review-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <p class="review-text">
-                        Заказ пришел за 10 дней, все отлично! Упаковка крепкая, товары целые. 
-                        В WhatsApp быстро отвечают, помогли с отслеживанием. Вес честный, тарифы 
-                        прозрачные. Буду заказывать еще, рекомендую всем!
-                    </p>
+                    <p class="review-text" data-i18n="reviews.review3.text">Очень довольна! Менеджеры всегда на связи, помогают с оформлением заказов.</p>
                 </div>
             </div>
         </div>
@@ -514,67 +529,111 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title" data-i18n="branches.title">Наши филиалы</h2>
-                <p class="section-subtitle" data-i18n="branches.subtitle">Пункты выдачи заказов в разных районах</p>
+                <p class="section-subtitle" data-i18n="branches.subtitle">Мы работаем в разных городах Казахстана</p>
             </div>
             <div class="branches-grid">
                 <div class="branch-card">
                     <div class="branch-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <h3 class="branch-name">BAGSTAN KARGO</h3>
-                    <div class="branch-info">
-                        <p><i class="fas fa-city"></i> <span data-i18n="branches.bagstan.city">г. Астана, район Есиль</span></p>
-                        <p><i class="fas fa-home"></i> <span data-i18n="branches.bagstan.address">Адрес выдачи: ЖК "Багыстан"</span></p>
-                        <p><i class="fas fa-building"></i> <span data-i18n="branches.branch">Филиал "SHANRAK KARGO"</span></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+77772230546">+7 777 223 05 46</a></p>
+                    <h3 class="branch-title" data-i18n="branches.branch1.city">Астана</h3>
+                    <p class="branch-address" data-i18n="branches.branch1.address">Район Жагалау, салон красоты Гульмира</p>
+                    <a href="https://2gis.kz/astana/geo/70000001083950497" target="_blank" class="branch-link">
+                        <i class="fas fa-external-link-alt"></i> <span data-i18n="branches.map">Открыть карту</span>
+                    </a>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="branch-title" data-i18n="branches.branch2.city">Алматы</h3>
+                    <p class="branch-address" data-i18n="branches.branch2.address">Центральный район</p>
+                    <a href="https://wa.me/7761111515" target="_blank" class="branch-link">
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="branches.contact">Связаться</span>
+                    </a>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="branch-title" data-i18n="branches.branch3.city">Шымкент</h3>
+                    <p class="branch-address" data-i18n="branches.branch3.address">Центральный район</p>
+                    <a href="https://wa.me/7761111515" target="_blank" class="branch-link">
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="branches.contact">Связаться</span>
+                    </a>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="branch-title" data-i18n="branches.branch4.city">Караганда</h3>
+                    <p class="branch-address" data-i18n="branches.branch4.address">Центральный район</p>
+                    <a href="https://wa.me/7761111515" target="_blank" class="branch-link">
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="branches.contact">Связаться</span>
+                    </a>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="branch-title" data-i18n="branches.branch5.city">Актобе</h3>
+                    <p class="branch-address" data-i18n="branches.branch5.address">Центральный район</p>
+                    <a href="https://wa.me/7761111515" target="_blank" class="branch-link">
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="branches.contact">Связаться</span>
+                    </a>
+                </div>
+                <div class="branch-card">
+                    <div class="branch-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="branch-title" data-i18n="branches.branch6.city">Виктория карго</h3>
+                    <p class="branch-address" data-i18n="branches.branch6.address">г. Астана, район Сарыарка, ул. Ыбырая Алтынсарина, 6/2</p>
+                    <a href="https://2gis.kz/astana/geo/70000001110245830" target="_blank" rel="noopener noreferrer" class="branch-link">
+                        <i class="fas fa-external-link-alt"></i> <span data-i18n="branches.map">Открыть карту</span>
+                    </a>
+                    <div style="margin-top: 1rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,107,53,0.2);">
+                        <a href="https://2gis.kz/astana/geo/70000001110245830" target="_blank" rel="noopener noreferrer" style="color: #FF6B35; text-decoration: underline; font-size: 0.95rem; font-weight: 600; word-break: break-all;">
+                            https://2gis.kz/astana/geo/70000001110245830
+                        </a>
                     </div>
                 </div>
                 <div class="branch-card">
                     <div class="branch-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <h3 class="branch-name">VICTORIA KARGO</h3>
-                    <div class="branch-info">
-                        <p><i class="fas fa-city"></i> <span data-i18n="branches.victoria.city">г. Астана, район Сарыарка</span></p>
-                        <p><i class="fas fa-home"></i> <span data-i18n="branches.victoria.address">ул. Ы. Алтынсарина 6/2</span></p>
-                        <p><i class="fas fa-building"></i> <span data-i18n="branches.branch">Филиал "SHANRAK KARGO"</span></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+77761111515">+7 776 111 1515</a></p>
+                    <h3 class="branch-title" data-i18n="branches.branch7.city">Лотус карго</h3>
+                    <p class="branch-address" data-i18n="branches.branch7.address">г. Астана, район Есиль, ул. Динмухамед Конаев, 35/1</p>
+                    <a href="https://2gis.kz/astana/geo/70000001104651137" target="_blank" rel="noopener noreferrer" class="branch-link">
+                        <i class="fas fa-external-link-alt"></i> <span data-i18n="branches.map">Открыть карту</span>
+                    </a>
+                    <div style="margin-top: 1rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,107,53,0.2);">
+                        <a href="https://2gis.kz/astana/geo/70000001104651137" target="_blank" rel="noopener noreferrer" style="color: #FF6B35; text-decoration: underline; font-size: 0.95rem; font-weight: 600; word-break: break-all;">
+                            https://2gis.kz/astana/geo/70000001104651137
+                        </a>
                     </div>
                 </div>
-                <div class="branch-card">
-                    <div class="branch-icon">
-                        <i class="fas fa-map-marker-alt"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- China Warehouse Section -->
+    <section id="china-warehouse" class="section warehouse-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="warehouse.title">Адрес склада в Китае</h2>
+                <p class="section-subtitle" data-i18n="warehouse.subtitle">Наш склад для приема и консолидации грузов</p>
+            </div>
+            <div class="warehouse-content">
+                <div class="warehouse-card">
+                    <div class="warehouse-icon">
+                        <i class="fas fa-warehouse"></i>
                     </div>
-                    <h3 class="branch-name">LOTUS KARGO</h3>
-                    <div class="branch-info">
-                        <p><i class="fas fa-city"></i> <span data-i18n="branches.lotus.city">г. Астана, район Есиль</span></p>
-                        <p><i class="fas fa-home"></i> <span data-i18n="branches.lotus.address">ул. Кунаева 35/1</span></p>
-                        <p><i class="fas fa-building"></i> <span data-i18n="branches.branch">Филиал "SHANRAK KARGO"</span></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+77761111515">+7 776 111 1515</a></p>
-                    </div>
-                </div>
-                <div class="branch-card">
-                    <div class="branch-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <h3 class="branch-name">AI KARGO</h3>
-                    <div class="branch-info">
-                        <p><i class="fas fa-city"></i> <span data-i18n="branches.ai.city">село Акмол (Малиновка)</span></p>
-                        <p><i class="fas fa-home"></i> <span data-i18n="branches.ai.address">мкр. Бакыт, дом 12</span></p>
-                        <p><i class="fas fa-building"></i> <span data-i18n="branches.branch">Филиал "SHANRAK KARGO"</span></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+77782692323">+7 778 269 2323</a></p>
-                    </div>
-                </div>
-                <div class="branch-card">
-                    <div class="branch-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <h3 class="branch-name">ASYA KARGO</h3>
-                    <div class="branch-info">
-                        <p><i class="fas fa-city"></i> <span data-i18n="branches.asya.city">РК, Алматинская область, район Карасайский</span></p>
-                        <p><i class="fas fa-home"></i> <span data-i18n="branches.asya.address">сельский округ Райымбекский, село Жанатурмыс, ул. Бөктер дом 5</span></p>
-                        <p><i class="fas fa-building"></i> <span data-i18n="branches.branch">Филиал "SHANRAK KARGO"</span></p>
-                        <p><i class="fas fa-phone"></i> <a href="tel:+77770336737">+7 777 033 6737</a></p>
+                    <div class="warehouse-address">
+                        <h3 data-i18n="warehouse.name">高高花 SHANRAK KARGO</h3>
+                        <p class="warehouse-phone" data-i18n="warehouse.phone">18057977986</p>
+                        <p class="warehouse-location" data-i18n="warehouse.address">浙江省金华市义乌市 物华路39号哈萨克物流公司</p>
+                        <p class="warehouse-code" data-i18n="warehouse.code">入库号: 高高花 SHANRAK KARGO</p>
+                        <p class="warehouse-note" data-i18n="warehouse.note">При отправке указывайте: Имя (номер телефона, город)</p>
                     </div>
                 </div>
             </div>
@@ -593,26 +652,26 @@
                         <div class="contact-icon">
                             <i class="fab fa-whatsapp"></i>
                         </div>
-                        <div class="contact-details">
-                            <h3 data-i18n="contacts.whatsapp">WhatsApp</h3>
-                            <a href="https://wa.me/7761111515" target="_blank">+7 776 111 1515</a>
+                        <div>
+                            <h4 data-i18n="contacts.whatsapp">WhatsApp</h4>
+                            <a href="https://wa.me/7761111515" target="_blank" class="contact-link">+7 776 111 1515</a>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fab fa-instagram"></i>
                         </div>
-                        <div class="contact-details">
-                            <h3 data-i18n="contacts.instagram">Instagram</h3>
-                            <a href="https://www.instagram.com/shanrak.kargo?igsh=MTNkZGcybzd4em9mYg==" target="_blank">@shanrak.kargo</a>
+                        <div>
+                            <h4 data-i18n="contacts.instagram">Instagram</h4>
+                            <a href="https://www.instagram.com/shanrak.kargo?igsh=MTNkZGcybzd4em9mYg==" target="_blank" class="contact-link">@shanrak.kargo</a>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <div class="contact-details">
-                            <h3 data-i18n="contacts.address">Адрес</h3>
+                        <div>
+                            <h4 data-i18n="contacts.address">Адрес в Казахстане</h4>
                             <p data-i18n="contacts.addressText">Астана, район Жагалау</p>
                             <p class="contact-note" data-i18n="contacts.addressNote">находится внутри салона красоты Гульмира</p>
                             <a href="https://2gis.kz/astana/geo/70000001083950497" target="_blank" class="contact-link">
@@ -620,79 +679,28 @@
                             </a>
                         </div>
                     </div>
-                    <div class="contact-item warehouse-item">
+                    <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-warehouse"></i>
                         </div>
-                        <div class="contact-details">
-                            <h3 data-i18n="contacts.warehouse">Адрес склада в Китае</h3>
-                            <p class="warehouse-address">
-                                高高花SHANRAK KARGO 18057977986<br>
-                                浙江省金华市义乌市<br>
-                                物华路39号哈萨克物流公司<br>
-                                入库号 高高花 SHANRAK KARGO<br>
-                                <strong>Имя (номер телефона, город)</strong>
-                            </p>
-                            <p class="warehouse-note" data-i18n="contacts.warehouseNote">
-                                Для отправки груза укажите адрес склада и ваш номер телефона
-                            </p>
+                        <div>
+                            <h4 data-i18n="contacts.warehouse">Склад в Китае</h4>
+                            <p class="contact-note" data-i18n="contacts.warehouseAddress">高高花 SHANRAK KARGO<br>18057977986<br>浙江省金华市义乌市 物华路39号哈萨克物流公司</p>
+                            <a href="#china-warehouse" class="contact-link">
+                                <i class="fas fa-info-circle"></i> <span data-i18n="contacts.warehouseDetails">Подробнее</span>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="map-container">
-                    <iframe 
-                        src="https://widgets.2gis.com/widget?type=firmsonmap&options=%7B%22pos%22%3A%5B71.4306%2C51.1694%5D%2C%22zoom%22%3A15%2C%22id%22%3A%2270000001083950497%22%7D" 
-                        width="100%" 
-                        height="400" 
-                        frameborder="0" 
-                        style="border:0; border-radius: 12px;"
-                        allowfullscreen>
-                    </iframe>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3 class="footer-logo">SHANRAK CARGO</h3>
-                    <p class="footer-description" data-i18n="footer.description">
-                        Доставка товаров из Китая в Астану и по всему Казахстану
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title" data-i18n="footer.contacts">Контакты</h4>
-                    <ul class="footer-links">
-                        <li><a href="https://wa.me/7761111515" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-                        <li><a href="https://www.instagram.com/shanrak.kargo?igsh=MTNkZGcybzd4em9mYg==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        <li><a href="https://2gis.kz/astana/geo/70000001083950497" target="_blank"><i class="fas fa-map-marker-alt"></i> 2GIS</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title" data-i18n="footer.services">Услуги</h4>
-                    <ul class="footer-links">
-                        <li><a href="#services" data-i18n="services.service1.title">Доставка из Китая</a></li>
-                        <li><a href="#services" data-i18n="services.service2.title">Консолидация</a></li>
-                        <li><a href="#services" data-i18n="services.service3.title">Таможенное оформление</a></li>
-                        <li><a href="https://cargo-1.kz/" target="_blank"><i class="fas fa-search"></i> <span data-i18n="footer.tracking">Отследить груз</span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 SHANRAK CARGO. <span data-i18n="footer.copyright">Все права защищены.</span></p>
-            </div>
-        </div>
-    </footer>
 
     <script src="translations.js"></script>
     <script>
         // Wait for translations to load before initializing language
         function initLanguage() {
             if (typeof translations !== 'undefined') {
-                // Initialize language switching after translations are loaded
                 let currentLang = localStorage.getItem('lang') || 'ru';
                 const htmlLang = document.getElementById('htmlLang');
 
@@ -704,7 +712,6 @@
                     }
                     document.documentElement.setAttribute('lang', lang);
                     
-                    // Update active button
                     document.querySelectorAll('.lang-btn').forEach(btn => {
                         btn.classList.remove('active');
                         if (btn.dataset.lang === lang) {
@@ -712,7 +719,6 @@
                         }
                     });
                     
-                    // Update all text elements
                     document.querySelectorAll('[data-i18n]').forEach(element => {
                         const key = element.dataset.i18n;
                         const keys = key.split('.');
@@ -733,34 +739,44 @@
                             if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
                                 element.value = value;
                             } else if (element.tagName === 'SPAN') {
-                                // Для span элементов (обычно внутри кнопок/ссылок с иконками) просто заменяем текст
                                 element.textContent = value;
                             } else {
-                                // Для других элементов проверяем наличие иконок
                                 const icons = element.querySelectorAll('i, svg, img');
                                 if (icons.length > 0) {
-                                    // Сохраняем иконки и заменяем только текст
                                     const iconHTML = Array.from(icons).map(icon => icon.outerHTML).join('');
                                     element.innerHTML = iconHTML + ' ' + value;
                                 } else {
-                                    // Нет иконок - просто заменяем текст
                                     element.textContent = value;
                                 }
                             }
                         }
                     });
                     
-                    // Обновляем title страницы
-                    const titleElement = document.querySelector('title');
-                    if (titleElement && translations[lang] && translations[lang].meta && translations[lang].meta.title) {
-                        titleElement.textContent = translations[lang].meta.title;
-                    }
+                    // Update placeholders
+                    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+                        const key = element.dataset.i18nPlaceholder;
+                        const keys = key.split('.');
+                        let value = translations[lang];
+                        
+                        if (!value) return;
+                        
+                        for (let k of keys) {
+                            if (value && typeof value === 'object') {
+                                value = value[k];
+                            } else {
+                                value = null;
+                                break;
+                            }
+                        }
+                        
+                        if (value !== null && value !== undefined) {
+                            element.placeholder = value;
+                        }
+                    });
                 }
 
-                // Initialize language
                 setLanguage(currentLang);
 
-                // Language switcher buttons
                 document.querySelectorAll('.lang-btn').forEach(btn => {
                     btn.addEventListener('click', () => {
                         const lang = btn.dataset.lang;
@@ -779,5 +795,108 @@
         }
     </script>
     <script src="script.js"></script>
+    <script>
+        // Tracking function
+        function trackPackage() {
+            const trackingNumber = document.getElementById('trackingNumber').value;
+            const lang = localStorage.getItem('lang') || 'ru';
+            if (trackingNumber.trim()) {
+                const message = translations[lang]?.tracking?.message || 'Отследить груз';
+                window.open(`https://wa.me/7761111515?text=${encodeURIComponent(message + ': ' + trackingNumber)}`, '_blank');
+            } else {
+                const errorMsg = translations[lang]?.tracking?.error || 'Пожалуйста, введите номер отслеживания';
+                alert(errorMsg);
+            }
+        }
+        
+        // Update placeholder on language change
+        document.addEventListener('DOMContentLoaded', function() {
+            const trackingInput = document.getElementById('trackingNumber');
+            if (trackingInput && typeof translations !== 'undefined') {
+                const updatePlaceholder = () => {
+                    const lang = localStorage.getItem('lang') || 'ru';
+                    const placeholder = translations[lang]?.tracking?.placeholder || 'Введите номер отслеживания';
+                    trackingInput.placeholder = placeholder;
+                };
+                updatePlaceholder();
+                // Update on language change
+                document.querySelectorAll('.lang-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        setTimeout(updatePlaceholder, 100);
+                    });
+                });
+            }
+        });
+    </script>
+    
+    <!-- Structured Data (Schema.org) for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "SHANRAK KARGO",
+        "alternateName": "SHANRAK KARGO",
+        "description": "Доставка товаров из Китая в Казахстан. Быстрая и надежная доставка в Астану и по всему Казахстану.",
+        "url": "https://shanrakkargo.com",
+        "telephone": "+77761111515",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Район Жагалау, салон красоты Гульмира",
+            "addressLocality": "Астана",
+            "addressCountry": "KZ"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "51.1694",
+            "longitude": "71.4491"
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+        },
+        "sameAs": [
+            "https://www.instagram.com/shanrak.kargo",
+            "https://wa.me/7761111515"
+        ],
+        "priceRange": "$$",
+        "image": "https://shanrakkargo.com/image.jpg",
+        "areaServed": {
+            "@type": "Country",
+            "name": "Kazakhstan"
+        },
+        "serviceType": "Доставка товаров из Китая",
+        "keywords": "shanrak kargo, доставка из китая, cargo китай казахстан, доставка товаров из китая"
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SHANRAK KARGO",
+        "alternateName": "SHANRAK KARGO",
+        "url": "https://shanrakkargo.com",
+        "logo": "https://shanrakkargo.com/image.jpg",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+77761111515",
+            "contactType": "customer service",
+            "availableLanguage": ["Russian", "Kazakh"]
+        },
+        "sameAs": [
+            "https://www.instagram.com/shanrak.kargo",
+            "https://wa.me/7761111515"
+        ]
+    }
+    </script>
 </body>
 </html>
