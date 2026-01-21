@@ -384,7 +384,7 @@
                         Используйте наш сервис отслеживания, чтобы всегда знать, где находится ваш груз. 
                         Введите номер накладной и получите актуальную информацию о статусе доставки.
                     </p>
-                    <a href="https://cargo-1.kz/" target="_blank" class="btn btn-primary btn-large">
+                    <a href="https://kargo-1.kz/" target="_blank" class="btn btn-primary btn-large">
                         <i class="fas fa-search"></i> <span data-i18n="tracking.button">Перейти к отслеживанию</span>
                     </a>
                 </div>
@@ -468,7 +468,7 @@
                     <p class="review-text">
                         Заказывал электронику из Китая. Доставили быстро, за 6 дней! Товар в идеальном 
                         состоянии, все работает. Отслеживание груза работает отлично, всегда знал где 
-                        находится посылка. Честный вес, прозрачные тарифы. Спасибо SHANRAK CARGO!
+                        находится посылка. Честный вес, прозрачные тарифы. Спасибо SHANRAK KARGO!
                     </p>
                 </div>
                 <div class="review-card">
@@ -483,7 +483,7 @@
                         </div>
                     </div>
                     <p class="review-text">
-                        Регулярно заказываю товары через SHANRAK CARGO. Всегда все вовремя, качественно 
+                        Регулярно заказываю товары через SHANRAK KARGO. Всегда все вовремя, качественно 
                         упаковано. Операторы в WhatsApp очень вежливые, помогают с любыми вопросами. 
                         Цены адекватные, никаких скрытых платежей. Лучший карго в Астане!
                     </p>
@@ -658,7 +658,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3 class="footer-logo">SHANRAK CARGO</h3>
+                    <h3 class="footer-logo">SHANRAK KARGO</h3>
                     <p class="footer-description" data-i18n="footer.description">
                         Доставка товаров из Китая в Астану и по всему Казахстану
                     </p>
@@ -677,12 +677,12 @@
                         <li><a href="#services" data-i18n="services.service1.title">Доставка из Китая</a></li>
                         <li><a href="#services" data-i18n="services.service2.title">Консолидация</a></li>
                         <li><a href="#services" data-i18n="services.service3.title">Таможенное оформление</a></li>
-                        <li><a href="https://cargo-1.kz/" target="_blank"><i class="fas fa-search"></i> <span data-i18n="footer.tracking">Отследить груз</span></a></li>
+                        <li><a href="https://kargo-1.kz/" target="_blank"><i class="fas fa-search"></i> <span data-i18n="footer.tracking">Отследить груз</span></a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 SHANRAK CARGO. <span data-i18n="footer.copyright">Все права защищены.</span></p>
+                <p>&copy; 2025 SHANRAK KARGO. <span data-i18n="footer.copyright">Все права защищены.</span></p>
             </div>
         </div>
     </footer>
